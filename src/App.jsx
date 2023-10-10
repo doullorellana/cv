@@ -1,11 +1,11 @@
 // Importando los diferentes componentes hijos para unificar el CV
-import Perfil from './components/laretal/Perfil';
-import Skills from './components/laretal/Skills';
-import Language from './components/laretal/Language';
-import Resume from './components/principal/Resume';
-import Experience from './components/principal/Experience';
-import Education from './components/principal/Education';
-import Contacts from './components/principal/Contacts';
+import Perfil from '../src/components/laretal/Perfil.jsx';
+import Skills from '../src/components/laretal/Skills.jsx';
+import Language from '../src/components/laretal/Language.jsx';
+import Resume from '../src/components/principal/Resume.jsx';
+import Experience from '../src/components/principal/Experience.jsx';
+import Education from '../src/components/principal/Education.jsx';
+import Contacts from '../src/components/principal/Contacts.jsx';
 import React from 'react';
 
 import './App.css'

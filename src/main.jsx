@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 //import App from './App.jsx'
-import Data from './components/data/data.jsx' // Data.jsx hereda informacion a su hijo App.jsx
+import Data from '../src/components/data/data.jsx' // Data.jsx hereda informacion a su hijo App.jsx
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -1,5 +1,5 @@
 import React from 'react'
-import App from '../../App' // importando el componente hijo App
+import App from '../../App.jsx' // importando el componente hijo App
 
 /* Padre: Main.jsx
    Pasa por Data.jsx para capturar los arreglos (DATA INFORMATION) y entregarlos a App.jsx
