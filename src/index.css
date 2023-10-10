@@ -1,0 +1,11 @@
+body {
+  background-color: #F8F9FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}

@@ -1,0 +1,13 @@
+.columnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 2.5px;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5px 1.5px;
+  width: 45%;
+}

@@ -1,0 +1,84 @@
+.contenedor {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 900px;
+  background: #F8F9FA;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.lateralIzq {
+  position: relative;
+  background: #DEDEDE;
+  padding: 10px;
+}
+
+.principal {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+.tituloText .imgPerfil {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.tituloText .imgPerfil img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  align-items: center;
+}
+
+.seccionContenido {
+  width: 270px;
+  font-size: 1.1em;
+  margin-top: 0px;
+}
+
+.seccionSubTitulo {
+  border-bottom: 1px solid rgba(135,135,135,0.7);
+  width: 270px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+h1, h2{
+  text-transform: uppercase;
+}
+
+.tituloText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: .8em;
+  margin-top: 8px;
+}
+
+.seccionSubTituloPrincipal {
+  border-bottom: 1px solid rgba(135,135,135,0.7);
+  width: 550px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.seccionContenidoPrincipal {
+  width: 550px;
+  font-size: .9em;
+  margin-top: 0px;
+}
